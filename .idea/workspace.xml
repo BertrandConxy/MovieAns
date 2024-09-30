@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf76c20b-c742-43b6-955c-517f517ef25a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/etl/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
