@@ -3,8 +3,8 @@ from etl.transform import transform_data
 from etl.load import load_data
 
 
-# from queries.query_results import run_query
-# from queries.analysis_queries import total_sales_by_product
+from queries.query_results import run_query
+from queries.analysis_queries import rank_movies_by_popularity
 
 def run_etl_pipeline():
     # Step 1: Extract
@@ -19,9 +19,9 @@ def run_etl_pipeline():
     load_data(cleaned_data, db_path)
 
     # # Step 4: Analyze
-    # query = total_sales_by_product()
-    # result = run_query(db_path, query)
-    # print(result)
+    query = rank_movies_by_popularity()
+    result = run_query(db_path, query)
+    print(result)
 
 
 if __name__ == "__main__":
